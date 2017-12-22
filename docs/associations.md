@@ -470,7 +470,7 @@ Without `as`, this adds `subscriptionId` as expected. However, if you were to sa
 
 ```js
 Invoice.belongsTo(Subscription, , { as: 'TheSubscription', foreignKey: 'subscription_id' })
-Subscription.hasMany(Invoice, { foreignKey: 'subscription_id' )
+Subscription.hasMany(Invoice, { foreignKey: 'subscription_id' })
 ```
 
 ## Associating objects
